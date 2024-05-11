@@ -13,6 +13,7 @@ import matplotlib.pyplot as plt
 from tensorflow.keras import Model
 from tensorflow.keras.layers import Dense, Dropout
 
+
 def scaling_variables(data, index_arr):
     for i in range(len(index_arr)):
         mean = np.mean(data[:, index_arr[i]])
